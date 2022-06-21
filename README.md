@@ -29,3 +29,5 @@ email id - sangramshinde952@gmail.com
 API KEY - 6510d15e-9c5d-4227-b023-cada4ee49c62
 app name - ml-regression-app88
 
+new updates
+
