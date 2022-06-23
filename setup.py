@@ -1,6 +1,6 @@
 from ast import Pass
-from setuptools import setup
-#from typing import list
+from setuptools import find_packages, setup
+from typing import list
 
 
 #declerng variables for setup function
@@ -18,7 +18,7 @@ def get_requirements_list():
     return function will give list of libreries mentioined in requirements.txt file
     """
     with open(REQUIREMENTS_FILE_NAME) as requirement_file:
-        return requirement_file.readlines()
+        return requirement_file.readlines().remove("-e .")
 
 
 setup(
@@ -26,7 +26,7 @@ name= PROJET_NAME,
 version= VERSION,
 author= AUTHOR,
 description=DESCRIPTION,
-packages=PACKAGES,
+packages=find_packages(),# find packages will serch for __init__.py files in each folder and install all packages avalible
 install_requres=get_requirements_list()
 
 )
