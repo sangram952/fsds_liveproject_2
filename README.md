@@ -11,6 +11,8 @@ if conda missing add anaconda3 & scripts to sys varialble
 ..
 
 conda create -p venv python==3.7 -y (to create conda env)
+we need to crete new env by running this commant
+as we are not saving venv folder on git ,but we need it to ru out appp, by running bove command venv get created automatically   
 
 ---------
 conda activate venv\ (to activate conda venv)
@@ -31,4 +33,11 @@ app name - ml-regression-app88
 
 new updates
 new
+
+for running jupyter file in vs code need to insatll ipykernal
+pip install ipykernal
+
+
+wdwd
+
 
