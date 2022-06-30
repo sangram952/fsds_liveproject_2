@@ -4,4 +4,4 @@ gunicorn
 sklearn
 pandas
 pyYAML
--e . #(it will installl localy declared packages)
+-e .

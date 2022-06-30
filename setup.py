@@ -1,6 +1,6 @@
 from ast import Pass
 from setuptools import find_packages, setup
-from typing import list
+from typing import List
 
 
 #declerng variables for setup function

@@ -4,7 +4,6 @@
 from datetime import datetime
 import os
 
-os.chdir("c:\\Users\\Dell\\Desktop\\fsds_liveproject\\fsds_liveproject_2\\fsds_liveproject_2")
 ROOT_DIR = os.getcwd() # to get current working directory
 CONFIG_DIR = "config"
 CONFIG_FILE = "config.yaml"

@@ -17,6 +17,7 @@ data_ingestion_config:
 data_validation_config:
   schema_file_name: schema.yaml
 
+
 data_transformation_config:
   add_bedroom_per_room: true
   transformed_dir: transformed_data
@@ -24,6 +25,7 @@ data_transformation_config:
   transformed_test_dir: test
   preprocessing_dir: preprocessed
   preprocessed_object_file_name: preprocessed.pkl
+
   
 model_trainer_config:
   trained_model_dir: trained_model
